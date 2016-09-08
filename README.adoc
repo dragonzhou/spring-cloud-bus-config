@@ -31,6 +31,10 @@ mvn spring-boot:run
 ----
 
 If all the applications have come up cleanly, the endpoint should be available at http://localhost:8080/show, http://localhost:8081/show
+----
+sample-service  vs  http://localhost:8080/show
+sample-service-b  vs  http://localhost:8081/show
+----
 
 
 . To change the property, open sample-config/src/main/resources/config/sample-service.yml and modify `service.prop` value and restart config server
